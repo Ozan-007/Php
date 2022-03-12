@@ -51,12 +51,58 @@
 
 <!-- 3.Write a PHP program to check a given integer and return true if it's even. -->
 
+    <?php 
+    
+    // $a = 10;
+    // $b = 11;
+
+    // if ($b % 2 == 0) {
+    //     echo("true");
+    //   }
+    // else{
+    //     echo('false');
+    // }
+    
+        ?> 
 
 
 
 
-<!-- 4.Write a PHP program to create a new string where 'if' is added to the front of a given string. Ifthe string already begins with 'if', return the string unchanged. -->
+<!-- 4.Write a PHP program to create a new string where 'if' is added to the front of a given string. If the string already begins with 'if', return the string unchanged. -->
+
+
+    <?php 
+    
+    // $a = "Ozan ";
+    // $b = "if"; 
+    // if (strpos($a,$b)) {
+    //     echo($a);   
+    //   }
+    // else{
+    //     echo($a.$b);
+    // }
+    
+        ?> 
+
+
+
+
 <!-- 5.Write a PHP program to remove the character in a given position of a given string. The given position will be in the range 0..string length -1 inclusive. -->
+
+    <?php 
+    
+    // $a = "Ozan ";
+    // $b = "if"; 
+    // if (strpos($a,$b)) {
+    //     echo($a);   
+    //   }
+    // else{
+    //     echo($a.$b);
+    // }
+    
+        ?> 
+
+
 <!-- 6.Write a PHP program to exchange the first and last characters in a given string and return the new string. -->
 <!-- 7.Write a PHP program to check if a given positive number is a multiple of 3 or a multiple of 7. -->
 <!-- 8.Write a PHP program to check the largest number among three given integers. -->
