@@ -115,24 +115,58 @@
     
     <?php 
 
-    $number = 25;
+    // $number = 25;
 
-    if($number%3 == 0){
-        echo "$number true";
-    } 
-    else if ($number%7 == 0){
-        echo "$number true";
-    }
-    else{
-        echo "$number false";
-    }
+    // if($number%3 == 0){
+    //     echo "$number true";
+    // } 
+    // else if ($number%7 == 0){
+    //     echo "$number true";
+    // }
+    // else{
+    //     echo "$number false";
+    // }
 
 
     
         ?> 
 
 <!-- 8.Write a PHP program to check the largest number among three given integers. -->
+    <?php 
+
+    // $number1 = 150;
+    // $number2 = 25;
+    // $number3 = 35;
+
+    // if($number1 > $number2 && $number1 > $number3){
+    //     echo "$number1";
+    // } 
+    // else if ($number2 > $number1 && $number2 > $number3){
+    //     echo "$number2";
+    // }
+    // else{
+    //     echo "$number3";
+    // }
+
+        ?> 
 <!-- 9.Write a PHP program to check which number nearest to the value 100 among two given integers. Return 0 if the two numbers are equal. -->
+
+    <?php 
+
+    $number1 = 25;
+    $number2 = 25;
+
+    if(abs($number1-100) > abs($number2-100)){
+        echo "$number2";
+    } 
+    else if ($number1 == $number2){
+        echo "0";
+    }
+    else{
+        echo "$number1";
+    }
+
+        ?> 
 <!-- 10.Write a PHP program to compute the sum of two given non-negative integers x and y as long as the sum has the same number of digits as x. If the sum has more digits than x then return x without y. -->
 <!-- 11.Write a PHP program to compute the sum of the digits of a number. -->
 
