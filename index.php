@@ -153,22 +153,57 @@
 
     <?php 
 
-    $number1 = 25;
-    $number2 = 25;
+    // $number1 = 25;
+    // $number2 = 25;
 
-    if(abs($number1-100) > abs($number2-100)){
-        echo "$number2";
-    } 
-    else if ($number1 == $number2){
-        echo "0";
-    }
-    else{
-        echo "$number1";
-    }
+    // if(abs($number1-100) > abs($number2-100)){
+    //     echo "$number2";
+    // } 
+    // else if ($number1 == $number2){
+    //     echo "0";
+    // }
+    // else{
+    //     echo "$number1";
+    // }
 
         ?> 
+
 <!-- 10.Write a PHP program to compute the sum of two given non-negative integers x and y as long as the sum has the same number of digits as x. If the sum has more digits than x then return x without y. -->
+
+    <?php 
+
+    // $x = 74;
+    // $y = 25;
+    // $result = $x + $y;
+    // if(strlen($result)> strlen($x)) {
+    //     print $x;
+    // }
+    // else{
+    //     print $result;
+    // }
+
+        ?> 
+
+
+
+
 <!-- 11.Write a PHP program to compute the sum of the digits of a number. -->
+
+    <?php 
+
+    // $number = 744;
+    // $digits = str_split($number);
+    // $total = 0;
+    
+    
+    // for ($i = 0; $i < strlen($number); $i+=1) {
+    //     $total += $digits[$i];
+    // }
+    // echo $total
+
+        ?> 
+    
+
 
 </body>
 </html>
