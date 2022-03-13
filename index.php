@@ -104,9 +104,14 @@
 
 
 <!-- 6.Write a PHP program to exchange the first and last characters in a given string and return the new string. -->
+<?php
+
+$string = "PENCIL";
 
 
-    
+print substr($string, strlen($string)-1).substr($string,1,strlen($string)-2).substr($string,0,1);
+
+?>
 
 
 
